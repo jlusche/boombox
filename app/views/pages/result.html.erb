@@ -1,1 +1,7 @@
-<h1>You chose <%= @artist %> </h1>
+<h1>Your results</h1><br><br>
+
+ <% @all_artists.each_with_index do |artist, index| %>
+<%= index +=1 %>. 
+ <%= artist['name']%><br>
+
+ <% end  %>
