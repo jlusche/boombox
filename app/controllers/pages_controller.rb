@@ -1,4 +1,4 @@
-class Pages < ApplicationController    #classes have to be capitalized
+class PagesController < ApplicationController    #classes have to be capitalized
   def home
   end
   def result 
